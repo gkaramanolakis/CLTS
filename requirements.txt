@@ -1,0 +1,12 @@
+#python3.7
+pandas==1.0.1
+nltk==3.4.5
+spacy==2.2.4
+spacy==2.3
+pymorphy2==0.8  # For Russian
+jieba==0.42.1   # For Chinese
+fugashi[unidic-lite] # For Japanese
+torch==1.4.0
+torchvision==0.5.0
+simpletransformers==0.21.3
+transformers==2.6.0
