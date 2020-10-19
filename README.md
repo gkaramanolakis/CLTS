@@ -2,6 +2,8 @@
 
 This repo holds the code for our Findings of EMNLP'20 paper: "[Cross-Lingual Text Classification with Minimal Resources by Transferring a Sparse Teacher](https://arxiv.org/pdf/2010.02562.pdf)" 
 
+CLTS trains a classifier in a target language (e.g., French) with minimal resources by transferring weak supervision from a different source language (e.g., English). Given a limited translation budget, CLTS transfers a sparse classifier (Teacher) across languages and trains a more powerful classifier (Student) in the target language.
+
 ## Install Requirements (Python 3.7)
 ```
 pip install -r requirements.txt
