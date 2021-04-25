@@ -17,11 +17,9 @@ Main Components:
 
 The core advantage of CLTS is that it can transfer supervision across languages **efficiently**, i.e., without requiring expensive cross-lingual resources such as machine translation systems or high-coverage bilingual dictionaries. 
 
-With as few as _B_=20 seed-word translations, CLTS is **effective across 18 languages** and 4 tasks and sometimes outperforms even more expensive state-of-the-art methods: 
+With as few as _B_=20 seed-word translations, CLTS is **effective across 18 languages** and 4 tasks and sometimes outperforms even more expensive state-of-the-art methods. 
 
-![alt text](https://github.com/gkaramanolakis/CLTS/blob/main/CLTS_performance.jpg?raw=true)
-
-News document classification (MLDoc) results:
+#### News document classification (MLDoc) results:
 
 Method | De | Es | Fr | It | Ru | Zh | Ja 
 --- | --- | --- | --- |--- |--- |--- |--- 
@@ -29,7 +27,7 @@ MultiBERT | 79.8 | 72.1 | 73.5 | 63.7 | 73.7 | 76.0 | 72.8
 MultiCCA (_B_=20K) | 81.2 | 72.5 | 72.4 | 69.4 | 60.8 | 74.7 | 67.6
 **CLTS (_B_=160)** | **90.4** | **86.3** | **91.2** | **74.7** | **75.6** | **84.0** | **72.6**
 
-Review sentiment classification (CLS) results: 
+#### Review sentiment classification (CLS) results: 
 
 Method | De | Fr | Ja 
 --- | --- | --- | --- 
@@ -38,7 +36,7 @@ VECMAP | 75.3 | 78.2 | 55.9
 CL-SCL (_B_=450) | 78.1 | 78.4 | 73.1 
 **CLTS (_B_=20)** | **80.1** | **83.4** | **77.6** 
 
-Our [EMNLP Findings '20 paper](https://www.aclweb.org/anthology/2020.findings-emnlp.323.pdf) describes CLTS and provides more experimental results in detail. 
+Our [EMNLP Findings '20 paper](https://www.aclweb.org/anthology/2020.findings-emnlp.323.pdf) describes CLTS in detail and provides more experimental results. 
 
 ## Installing and Running CLTS
 ### Install Requirements (Python 3.7)
