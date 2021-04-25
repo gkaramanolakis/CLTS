@@ -19,6 +19,8 @@ The core advantage of CLTS is that it can transfer supervision across languages 
 
 With as few as _B_=20 seed-word translations, CLTS is **effective across 18 languages** and 4 tasks and sometimes outperforms even more expensive state-of-the-art methods: 
 
+![alt text](https://github.com/gkaramanolakis/CLTS/blob/main/CLTS_performance.jpg?raw=true)
+
 News document classification (MLDoc) results:
 
 Method | De | Es | Fr | It | Ru | Zh | Ja 
